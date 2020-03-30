@@ -40,4 +40,8 @@ class ViewController < ApplicationController
     @authors = Author.all
   end
 
+  def fields
+    @user = User.find(1)
+  end
+
 end
