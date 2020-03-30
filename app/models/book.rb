@@ -1,3 +1,4 @@
 class Book < ApplicationRecord
-    has_and_belongs_to_many :authors #authorとのアソシエーションを追加
+  has_many :reviews
+  has_and_belongs_to_many :authors
 end

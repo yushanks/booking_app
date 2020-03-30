@@ -6,6 +6,12 @@ Rails.application.routes.draw do
   resources :books
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   # 第4章
+
+
+
+
+  get 'hello/list'
+
   get 'view/keyword'
   post 'keyword/search'
 
@@ -22,4 +28,17 @@ Rails.application.routes.draw do
   get 'view/col_select2'
   get 'view/group_select2'
   get 'view/fields'
+  get 'view/simple_format'
+  get 'view/truncate'
+  get 'view/excerpt'
+  get 'view/highlight'
+  get 'view/conc'
+  get 'view/sanitize'
+  get 'view/format'
+  get 'view/number_to'
+  get 'view/datetime'
+  get 'view/link'
+  get 'view/urlfor'
+  get 'view/new'
+  
 end
